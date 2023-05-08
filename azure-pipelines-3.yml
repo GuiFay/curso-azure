@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: curso azure
+  vmImage: 'ubuntu-latest'
 
 steps:
 - script: echo Hello, world!
